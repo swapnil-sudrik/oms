@@ -6,11 +6,7 @@ An office management system is a software tool that streamlines tasks like emplo
 
 ## Table of Contents
 
-- [oms](#oms)
-  - [Overview](#overview)
-  - [Table of Contents](#table-of-contents)
   - [Features](#features)
-  - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
 
