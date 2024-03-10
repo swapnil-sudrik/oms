@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.faq-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.abt-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.abt {
+  flex-basis: 25%;
+}
+.frame{
+  flex-basis: 50%;
+}
+.a {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-column {
+  flex-basis: 33.33%;
+}
+.faq-col {
+  flex-basis: 45%;
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.columns {
+  flex-basis: 45%; /* Set initial width to 33.33% (one-third of the row) */
+}
+.column-curriculum {
+  flex-basis: 50%;
+}
+.b {
+  flex-basis: 30%;
+  background-color: lightgray;
+  padding: 10px;
+}
+.logo {
+  width: 300px;
+}
+.login-logo {
+  display: none;
+}
+button.p-button.p-component.login-btn {
+  display: inline;
+}
+
+.reg-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.curriculum {
+  background-color: black;
+}
+@media (max-width: 380px) {
+  .abt {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 995px) {
+  .abt {
+    flex-basis: 50%;
+  }
+  .frame{
+    flex-basis: 100%;
+  }
+  .frame-img{
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .getInTouch {
+    display: none;
+  }
+  .footer-column {
+    flex-basis: 100%;
+  }
+  .faq {
+    display: none;
+  }
+  .faq-col {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 905px) {
+  .b {
+    flex-basis: 100%;
+  }
+  .columns {
+    flex-basis: 100%;
+  }
+  .placement {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 830px) {
+  .column-curriculum {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  button.p-button.p-component.login-btn {
+    display: none;
+  }
+  .login-logo {
+    display: inline;
+    font-size: medium;
+  }
+  .logo {
+    width: 250px;
+  }
+}
+
+/* adding after copy */
+.admin-welcome {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.trainer-welcome {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+}
+
+.admin-welcome:hover {
+  box-shadow: 0 4px 8px 0 rgba(142, 142, 142, 0.2),
+    0 6px 20px 0 rgba(146, 141, 141, 0.19);
+}
+.emp-card:hover {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+}
+
+.report-btn {
+  display: inline-block;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: black;
+}
+
+.report-btn:hover {
+  border-color: rgb(108, 117, 125);
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.radius-start {
+  border-radius: 6px 0px 0px 6px;
+}
+
+.radius-end {
+  border-radius: 0px 6px 6px 0px;
+}
+
+.notice {
+  width: 600px;
+  margin-left: 63px;
+  margin: auto;
+}
+
+.div-icon {
+  background-color: rgb(154, 154, 154);
+  border-radius: 30%;
+}
+
+.menu-item {
+  padding: 0;
+  line-height: 35px;
+}
+.manage-team {
+  /* margin-top: 50px; */
+  text-decoration: none;
+  color: black;
+}
+.manage-team:hover {
+  color: orange;
+}
+
+.my-menu:hover {
+  background-color: orange;
+}
+.drop-content {
+  display: none;
+  position: absolute;
+  top: 140px;
+  margin-left: -11em;
+}
+
+.dropdown1:hover .drop-content {
+  display: block;
+}
+
+.drop-content2 {
+  display: none;
+  position: absolute;
+  top: 400px;
+  margin-left: -11em;
+}
+
+.dropdown2:hover .drop-content2 {
+  display: block;
+}
+
+.my-margin {
+  margin-left: 64px;
+}
+.hamb {
+  display: none;
+}
+.f-size {
+  font-size: 17px;
+}
+.logo {
+  width: 300px;
+}
+
+/* popup css */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 33.33%; /* Set initial width to 33.33% (one-third of the row) */
+}
+
+@media (max-width: 1140px) {
+  .column {
+    flex-basis: 100%; /* Set width to 100% for smaller screens */
+  }
+}
+
+@media (max-width: 1184px) {
+  .course-para {
+    text-align: center;
+  }
+}
+@media (max-width: 1470px) {
+  .report-btn {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 6px;
+  }
+  .mm {
+    display: inline;
+  }
+}
+
+@media (max-width: 834px) {
+  .notice {
+    margin-left: 70px;
+    width: 500px;
+  }
+  .hamb {
+    display: block;
+  }
+  .vertical-nav {
+    display: none;
+  }
+  .my-margin {
+    margin-left: 0;
+  }
+  .f-size {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 578px) {
+  .reg-card {
+    margin-top: -10%;
+  }
+  .img-fluid {
+    display: none;
+  }
+  .notice {
+    width: 380px;
+    margin-left: 70px;
+  }
+  .f-size {
+    font-size: 13px;
+  }
+  .logo {
+    width: 250px;
+  }
+}
+@media (max-width: 468px) {
+  .logo {
+    width: 200px;
+  }
+}
+@media (max-width: 415px) {
+  .logo {
+    width: 150px;
+  }
+}
